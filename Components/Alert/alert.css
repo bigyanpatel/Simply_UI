@@ -1,66 +1,76 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-@import url('/global.css');
-
-* {
-  font-family: "Inter", sans-serif;
-}
 .alert {
-  width: 30%;
+  width: 90%;
   margin: 1rem;
   padding: 1rem;
   border-radius: 5px;
   display: flex;
-  align-self: center;
+  align-items: center;
+}
+.alert-container {
+  padding: 1rem 0;
+  height: calc(100vh - 68px);
+  overflow: scroll;
+  width: 100%;
+}
+.simple-alert,
+.link-alert,
+.icon-alert {
+  flex-wrap: wrap;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .alert-link {
   text-decoration: none;
 }
-.icon {
+.alert-icon {
   font-size: 1.5rem;
   margin-right: 10px;
 }
-.is-info {
+.is-alert-info {
   color: var(--Color_Info_500);
   background-color: var(--Color_Info_200);
 }
-.is-info .alert-link {
+.is-alert-info .alert-link {
   text-decoration: underline;
   color: var(--Color_Info_600);
 }
 
-.is-secondary {
+.is-alert-secondary {
   color: var(--Secondary_Color);
   background-color: var(--Secondary_Border_Color);
 }
-.is-secondary .alert-link {
+.is-alert-secondary .alert-link {
   text-decoration: underline;
   color: var(--Color_Secondary_500);
 }
 
-.is-success {
+.is-alert-success {
   color: var(--Color_Success_500);
   background-color: var(--Color_Success_200);
 }
-.is-success .alert-link {
+.is-alert-success .alert-link {
   text-decoration: underline;
   color: var(--Color_Success_500);
 }
 
-.is-danger {
+.is-alert-danger {
   color: var(--Color_Danger_500);
   background-color: var(--Color_Danger_200);
 }
-.is-danger .alert-link {
+.is-alert-danger .alert-link {
   text-decoration: underline;
   color: var(--Color_Danger_500);
 }
 
-.is-warning {
+.is-alert-danger .alert-link {
   color: var(--Color_Warn_500);
   background-color: var(--Color_Warn_200);
 }
-.is-warning .alert-link {
+.is-alert-warning .alert-link {
   text-decoration: underline;
   color: var(--Color_Warn_500);
 }
