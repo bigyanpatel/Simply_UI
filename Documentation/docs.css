@@ -1,4 +1,5 @@
-@import url('/CSS/global.css');
+@import url("/CSS/global.css");
+
 body {
   font-family: "Lato", sans-serif;
   overflow: hidden;
@@ -58,4 +59,10 @@ body {
 }
 .component-item:hover {
   background-color: var(--Primary_Disabled_Color);
+}
+
+@media screen and (max-width: 582px) {
+  .sidebar-component {
+    display: none;
+  }
 }
