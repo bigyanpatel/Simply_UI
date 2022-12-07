@@ -53,7 +53,6 @@
   /* Font-family */
   --Lato_Font: "Lato", sans-serif;
 }
-
 body {
   padding: 0;
   margin: 0;
@@ -93,13 +92,4 @@ button {
   border: none;
   cursor: pointer;
   font-size: 1rem;
-}
-
-/* || List */
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
 }
