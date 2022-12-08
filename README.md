@@ -131,7 +131,7 @@ Easy and effective component library for making **Web layouts**.
 <a name="introduction"/>
 
 #### Introduction
-* Hey developers, I'm Bigyan, passionate frontend developer. Check out my [Portfolio](https://gopalbharadva.netlify.app/)
+* Hey developers, I'm Bigyan, passionate frontend developer. Check out my [Portfolio](https://bigyanpatel2.netlify.app/)
 
 <a name="social-media"/>
 
