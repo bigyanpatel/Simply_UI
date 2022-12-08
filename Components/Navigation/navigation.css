@@ -1,0 +1,105 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+  }
+  .login-link {
+    margin-left: 1rem;
+    padding: 10px 1rem;
+    border-radius: 2px;
+    background-color: var(--Primary_Color);
+    text-decoration: none;
+    color: var(--Color_White);
+  }
+  .login-link:hover {
+    opacity: 0.7;
+  }
+  .login-link {
+    padding: 10px 1rem;
+    border-radius: 2px;
+    background-color: var(--Primary_Color);
+    text-decoration: none;
+    color: var(--Color_White);
+  }
+  .login-link:hover {
+    opacity: 0.7;
+  }
+  
+  .nav-left-section,
+  .nav-right-section {
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    width: 80px;
+    max-width: 100%;
+    border-radius: 50%;
+  }
+  .hamburger-icon {
+    display: none;
+    font-size: 1.5rem;
+  }
+  
+  .search-bar {
+    max-width: 30rem;
+    width: 100%;
+    display: flex;
+    background-color: var(--Primary_Color_100);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .search-icon {
+    display: none;
+  }
+  .search-bar i {
+    opacity: 0.6;
+  }
+  .search-input {
+    padding-left: 5px;
+    font-size: 1rem;
+    border: none;
+    background: transparent;
+  }
+  .search-input:focus {
+    outline: 0;
+  }
+  .secondary-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .secondary-list {
+    padding: 0 10px;
+    display: flex;
+    gap: 20px;
+  }
+  .secondary-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .secondary-list i {
+    font-size: 1.5rem;
+    color: var(--Primary_Color);
+  }
+  
+  @media screen and (max-width: 500px) {
+    .search-icon {
+      color: var(--Primary_Color);
+      font-size: 1.25rem;
+      padding: 1rem;
+      display: block;
+      margin-left: auto;
+    }
+    .login-link {
+      display: none;
+    }
+    .hamburger-icon {
+      display: block;
+    }
+    .search-bar {
+      display: none;
+    }
+  }
