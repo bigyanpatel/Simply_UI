@@ -23,8 +23,8 @@
 .main-header-title {
   color: var(--Primary_Color);
   font-weight: 400;
-  font-size: 2.5rem;
-  line-height: 3.5rem;
+  font-size: 2.25rem;
+  line-height: 2rem;
 }
 .main-header-description {
   opacity: 0.8;
@@ -39,6 +39,6 @@
 }
 .cat-header-description {
   font-family: var(--Lato_Font);
-  font-size: 1.25rem;
-  opacity: 0.8;
+  font-size: 1rem;
+  line-height: 2rem;
 }
