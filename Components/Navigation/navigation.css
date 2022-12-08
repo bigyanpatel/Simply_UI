@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1rem;
+    padding: 0 1.5rem;
   }
   .login-link {
     margin-left: 1rem;
@@ -38,7 +38,7 @@
   }
   .hamburger-icon {
     display: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   
   .search-bar {
