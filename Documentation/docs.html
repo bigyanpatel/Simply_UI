@@ -13,8 +13,7 @@
   </head>
   <body>
     <!-- || Navigation bar -->
-    <div class="root">
-      <nav class="navigation-bar">
+    <nav class="nav-bar">
         <a href="/index.html" class="nav-brand">Simply-UI</a>
         <ul class="nav-list">
           <li class="nav-item"><a href="/Documentation/docs.html">Docs</a></li>
@@ -1496,7 +1495,7 @@
             </div>
             <!-- Navigation v1 starts -->
             <div class="end-border">
-              <div class="mt">
+              <div class="output-container">
                 <nav class="navigation">
                   <span class="hamburger-icon">
                     <i class="fas fa-bars"></i>
@@ -1507,18 +1506,13 @@
                       class="logo"
                       alt="no preview available"
                     />
-                    <a href="#" class="login-link"><span>Login</span></a>
                   </div>
                   <div class="search-icon">
                     <i class="fas fa-search"></i>
                   </div>
                   <div class="search-bar">
                     <i class="fas fa-search"></i>
-                    <input
-                      class="search-input"
-                      type="text"
-                      placeholder="Search book..."
-                    />
+                    <input class="search-input" type="text" placeholder="Search book..." />
                   </div>
                   <div class="nav-right-section">
                     <ul class="secondary-list">
@@ -1526,13 +1520,16 @@
                         <span>
                           <i class="fas fa-heart"></i>
                         </span>
+                        <span class="favourite-badge badge">4</span>
                       </li>
                       <li class="cart-list-item">
                         <span>
                           <i class="fas fa-shopping-cart"></i>
                         </span>
+                        <span class="cart-badge badge">6</span>
                       </li>
                     </ul>
+                    <a href="#" class="login-link"><span>Login</span></a>
                   </div>
                 </nav>
               </div>
@@ -1719,7 +1716,7 @@
               <div class="category">
                 <h2 class="cat-header-title">Align text</h2>
               </div>
-              <div class="mt">
+              <div class="output-container">
                 <p class="align-start">
                   I love the smell of book ink in the morning.
                 </p>
@@ -1922,6 +1919,5 @@
             ************Ends**********-->
         </main>
       </main>
-    </div>
   </body>
 </html>
