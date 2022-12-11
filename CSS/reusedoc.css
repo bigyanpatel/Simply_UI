@@ -1,5 +1,3 @@
-@import url("/global.css");
-
 .description-area {
   border-bottom: 2px solid var(--Primary_Disabled_Color);
   padding: 2rem;
