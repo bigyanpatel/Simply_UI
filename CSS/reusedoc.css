@@ -1,3 +1,5 @@
+@import url("/CSS/global.css");
+
 .description-area {
   border-bottom: 2px solid var(--Primary_Disabled_Color);
   padding: 2rem;
@@ -7,8 +9,6 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 2rem;
-  padding: 1rem;
   border-radius: 5px;
   border: 2px solid var(--Primary_Disabled_Color);
 }
@@ -20,26 +20,16 @@
 }
 .main-header-title {
   font-weight: 400;
-  color: var(--Primary_Color);
-  font-size: 1.5rem;
-  line-height: 2rem;
-  margin: 0;
 }
 .main-header-description {
-  opacity: 0.8;
+  opacity: 0.9;
   font-family: var(--Lato_Font);
-  font-size: 1.1rem; 
-  line-height: 1.75rem;
 }
 .cat-header-title {
+  opacity: 0.9;
   font-weight: 400;
-  color: var(--Primary_Color);
-  font-size: 1.5rem;
-  line-height: 2rem;
-  margin: 0;
 }
 .cat-header-description {
-  opacity: 0.8;
+  opacity: 0.9;
   font-family: var(--Lato_Font);
-  font-size: 1.1rem;
 }
