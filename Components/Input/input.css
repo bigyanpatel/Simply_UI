@@ -1,3 +1,4 @@
+@import url("/CSS/global.css");
 ::placeholder {
   opacity: 0.4;
 }
@@ -35,7 +36,7 @@
 }
 .is-input-danger:focus {
   outline: none;
-  border: 1px solid var(--Color_Danger_500);
+  border: 2px solid var(--Color_Danger_500);
   box-shadow: 0 0 3px var(--Color_Danger_500);
 }
 .is-disabled {
