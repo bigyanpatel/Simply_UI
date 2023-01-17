@@ -6,7 +6,7 @@ Easy and effective component library for making **Web layouts**.
 #### Import
 * Copy below link and paste it in your **Head** tag.
 ```javascript
-<link rel="stylesheet" href="/CSS/style.css" />
+<link rel="stylesheet" href="https://simplyui.netlify.app/CSS/style.css" />
 ```
 
 #### Documentation
@@ -48,8 +48,6 @@ Easy and effective component library for making **Web layouts**.
 
   * [Introduction](#introduction)
   * [Social Media](#social-media)
-  
-* [Acknowledgement](#acknowledgement)
 
 ***
 
@@ -131,7 +129,7 @@ Easy and effective component library for making **Web layouts**.
 <a name="introduction"/>
 
 #### Introduction
-* Hey developers, I'm Bigyan, passionate frontend developer. Check out my [Portfolio](https://bigyanpatel2.netlify.app/)
+* Hey developers, I'm Bigyan, passionate frontend developer. Check out my [Portfolio](https://bigyanpatel.vercel.app/)
 
 <a name="social-media"/>
 
